@@ -24,26 +24,6 @@ const colors = {
     700: '#623B83',
     900: '#2E2145',
   },
-  'trans-blue': {
-    100: '#4D222B', // Dark text
-    200: '#1A6682', // Some lighter-ish text
-    300: '#095470', // Light-ish text
-    400: '#4F9FBD', // Button hover in some places
-    500: '#EEEEEE', // Darker trans white tracker list background
-    600: '#FFFFFF', // Trans white tracker list background and some buttons
-    700: '#F5A9B8', // Trans pink home background
-    800: '#5BCEFA', // Trans blue trans outer background
-    900: '#000509',
-  },
-  'trans-pink': {
-    100: '#B53A52', // Accent text
-    200: '#FCCAD4', // Lighter trans pink button
-    300: '#F7B7C4', // Somewhat lighter trans pink button
-    400: '#F7B7C4', // Somewhat lighter trans pink button
-    500: '#F5A9B8', // Trans pink buttons
-    700: '#FA91A6', // Darker trans pink button
-    900: '#F77C94', // Even darker trans pink home bottom
-  },
   'green-background': {
     100: '#ffffff',
     200: '#6bce6b',
@@ -152,18 +132,6 @@ const colors = {
     700: '#b3b3b3',
     900: '#d8d8d8',
   },
-  asexual: {
-    100: '#000000',
-    200: '#A3A3A3',
-    300: '#FFFFFF',
-    400: '#800080',
-  },
-  snep: {
-    100: '#261B20',
-    200: '#5B1B3A',
-    300: '#FFCCE5',
-  },
-};
 
 const config = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -316,9 +284,6 @@ const config = {
         'slime-red': `linear-gradient(135deg, ${colors['red-accent'][100]} 50%, ${colors['red-background'][700]} 50% 100%)`,
         dark: `linear-gradient(135deg, ${colors['dark-accent'][100]} 50%, ${colors['dark-background'][700]} 50% 100%)`,
         light: `linear-gradient(135deg, ${colors['light-accent'][100]} 50%, ${colors['light-background'][700]} 50% 100%)`,
-        'trans-flag': `linear-gradient(135deg, ${colors['trans-blue'][800]} 40%, ${colors['trans-blue'][700]} 40% 70%, ${colors['trans-blue'][600]} 70% 100%)`,
-        'asexual-flag': `linear-gradient(135deg, ${colors['asexual'][100]} 30%, ${colors['asexual'][200]} 30% 50%, ${colors['asexual'][300]} 50% 70%, ${colors['asexual'][400]} 70% 100%)`,
-        snep: `linear-gradient(135deg, ${colors['snep'][100]} 40%, ${colors['snep'][200]} 40% 70%, ${colors['snep'][300]} 70% 100%)`,
       },
       animation: {
         'spin-ccw': 'spin-ccw 1s linear infinite',

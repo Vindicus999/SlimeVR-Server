@@ -142,9 +142,7 @@ export function AppearanceSettings() {
     { value: 'slime-red', colors: '!bg-slime-red' },
     { value: 'dark', colors: '!bg-dark' },
     { value: 'light', colors: '!bg-light' },
-    { value: 'trans', colors: '!bg-trans-flag' },
-    { value: 'asexual', colors: '!bg-asexual-flag' },
-    { value: 'snep', colors: '!bg-snep' },
+    { value: 'chud', colors: '!bg-chud' },
   ];
 
   return (
